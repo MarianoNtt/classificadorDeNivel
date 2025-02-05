@@ -4,7 +4,6 @@ Classificador de Nível de Herói
 
 const classificarHeroi = (nome, xp) => {
     let nivel;
-    
     switch (true) {
         case xp >= 0 && xp <= 1000:
             nivel = "Ferro";
@@ -33,6 +32,4 @@ const classificarHeroi = (nome, xp) => {
     
     console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
 };
-
-// Exemplo de uso:
 classificarHeroi("Arcfato", 2000);
